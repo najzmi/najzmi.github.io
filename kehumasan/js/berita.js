@@ -1,5 +1,5 @@
 // JAVASCRIPT
-var urlPDN = 'https://www.al-azhar.or.id/wp-json/wp/v2/posts';
+var urlPDN = 'https://najzmi.github.io/kehumasan/json/json-front-website.json';
 $.getJSON(urlPDN, function(hasil){
 	//console.log(hasil);
 	$.each(hasil, function (i, data) {
