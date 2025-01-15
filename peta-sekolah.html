@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Peta Sebaran Sekolah Al Azhar</title>
+		<link rel="stylesheet" href="leaflet/leaflet.css"/>
+		<style>
+			/* Setel ukuran tinggi peta */
+			#map {
+				height: 100vh; /* Penuh layar */
+			}
+		</style>
+	</head>
+	<body>
+		<div id="map"></div> <!-- Elemen untuk peta -->
+
+		<!-- Link ke Leaflet JS -->
+		<script src="leaflet/leaflet.js"></script>
+		<script>
+			// Inisialisasi peta dan atur ke koordinat Indonesia -4.403998335843434, 122.22088977053072 // -2.5489, 118.0149
+			const map = L.map('map').setView([-4.403998335843434, 122.22088977053072], 5); // Koordinat tengah Indonesia
+
+			// Tambahkan layer peta OpenStreetMap
+			L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				maxZoom: 19,
+				attribution: '© OpenStreetMap contributors'
+			}).addTo(map);
+
+			// Buat ikon khusus dengan logo sekolah
+			const schoolIcon = L.icon({
+				iconUrl: 'leaflet/images/marker-icon-2x.png', // Ganti dengan path/logo Anda
+				iconSize: [40, 40], // Ukuran ikon [lebar, tinggi]
+				iconAnchor: [20, 40], // Titik jangkar (bawah tengah ikon)
+				popupAnchor: [0, -40]  // Posisi popup relatif terhadap ikon
+			});
+
+			// Marker untuk DKI Jakarta
+			L.marker([-6.2088, 106.8456], { icon: schoolIcon }).addTo(map)
+				.bindPopup('<b>DKI Jakarta</b><br>10 Sekolah');
+
+			// Marker untuk Jawa Barat
+			L.marker([-6.9147, 107.6098], { icon: schoolIcon }).addTo(map)
+				.bindPopup('<b>Jawa Barat</b><br>15 Sekolah');
+
+			// Marker untuk Jawa Tengah
+			L.marker([-7.0051, 110.4381], { icon: schoolIcon }).addTo(map)
+				.bindPopup('<b>Jawa Tengah</b><br>12 Sekolah');
+
+			// Marker untuk Jawa Timur
+			L.marker([-7.2504, 112.7688], { icon: schoolIcon }).addTo(map)
+				.bindPopup('<b>Jawa Timur</b><br>18 Sekolah');
+
+			// Marker untuk DI Yogyakarta
+			L.marker([-7.7972, 110.3688], { icon: schoolIcon }).addTo(map)
+				.bindPopup('<b>DI Yogyakarta</b><br>8 Sekolah');
+
+			// Marker untuk Banten
+			L.marker([-6.1202, 106.1505], { icon: schoolIcon }).addTo(map)
+				.bindPopup('<b>Banten</b><br>9 Sekolah');
+
+			// Marker untuk Riau
+			L.marker([0.5071, 101.4478], { icon: schoolIcon }).addTo(map)
+				.bindPopup('<b>Riau</b><br>7 Sekolah');
+
+			// Marker untuk Jambi
+			L.marker([-1.6102, 103.6131], { icon: schoolIcon }).addTo(map)
+				.bindPopup('<b>Jambi</b><br>6 Sekolah');
+
+			// Marker untuk Sumatera Barat
+			L.marker([-0.9492, 100.3543], { icon: schoolIcon }).addTo(map)
+				.bindPopup('<b>Sumatera Barat</b><br>10 Sekolah');
+
+			// Marker untuk Bengkulu
+			L.marker([-3.8004, 102.2655], { icon: schoolIcon }).addTo(map)
+				.bindPopup('<b>Bengkulu</b><br>5 Sekolah');
+
+			// Marker untuk Lampung
+			L.marker([-5.426, 105.258], { icon: schoolIcon }).addTo(map)
+				.bindPopup('<b>Lampung</b><br>12 Sekolah');
+
+			// Marker untuk Sumatera Selatan
+			L.marker([-2.9909, 104.756], { icon: schoolIcon }).addTo(map)
+				.bindPopup('<b>Sumatera Selatan</b><br>14 Sekolah');
+
+			// Marker untuk Bangka Belitung
+			L.marker([-2.7410, 106.4406], { icon: schoolIcon }).addTo(map)
+				.bindPopup('<b>Bangka Belitung</b><br>3 Sekolah');
+
+			// Marker untuk Kalimantan Barat
+			L.marker([0.0263, 109.3425], { icon: schoolIcon }).addTo(map)
+				.bindPopup('<b>Kalimantan Barat</b><br>8 Sekolah');
+
+			// Marker untuk Kalimantan Timur
+			L.marker([0.5386, 116.4194], { icon: schoolIcon }).addTo(map)
+				.bindPopup('<b>Kalimantan Timur</b><br>11 Sekolah');
+
+			// Marker untuk Kalimantan Selatan
+			L.marker([-3.3186, 114.5920], { icon: schoolIcon }).addTo(map)
+				.bindPopup('<b>Kalimantan Selatan</b><br>7 Sekolah');
+
+			// Marker untuk Cilacap
+			L.marker([-7.7170, 109.0113], { icon: schoolIcon }).addTo(map)
+				.bindPopup('<b>Cilacap</b><br>4 Sekolah');
+
+			// Marker untuk Gorontalo
+			L.marker([0.5479, 123.0595], { icon: schoolIcon }).addTo(map)
+				.bindPopup('<b>Gorontalo</b><br>6 Sekolah');
+
+			// Marker untuk Sulawesi Tengah
+			L.marker([-0.8987, 119.8502], { icon: schoolIcon }).addTo(map)
+				.bindPopup('<b>Sulawesi Tengah</b><br>9 Sekolah');
+
+			// Marker untuk Sulawesi Selatan
+			L.marker([-5.1354, 119.4238], { icon: schoolIcon }).addTo(map)
+				.bindPopup('<b>Sulawesi Selatan</b><br>16 Sekolah');
+
+			// Marker untuk Sulawesi Tenggara
+			L.marker([-4.0031, 122.5129], { icon: schoolIcon }).addTo(map)
+				.bindPopup('<b>Sulawesi Tenggara</b><br>5 Sekolah');
+
+		</script>
+	</body>
+</html>
