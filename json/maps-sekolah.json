@@ -1,0 +1,128 @@
+[
+    {
+        "latitude": -6.2088,
+        "longitude": 106.8456,
+        "nama_daerah": "DKI Jakarta",
+        "jumlah_sekolah": 10
+    },
+    {
+        "latitude": -6.9147,
+        "longitude": 107.6098,
+        "nama_daerah": "Jawa Barat",
+        "jumlah_sekolah": 15
+    },
+    {
+        "latitude": -7.0051,
+        "longitude": 110.4381,
+        "nama_daerah": "Jawa Tengah",
+        "jumlah_sekolah": 12
+    },
+    {
+        "latitude": -7.2504,
+        "longitude": 112.7688,
+        "nama_daerah": "Jawa Timur",
+        "jumlah_sekolah": 18
+    },
+    {
+        "latitude": -7.7972,
+        "longitude": 110.3688,
+        "nama_daerah": "DI Yogyakarta",
+        "jumlah_sekolah": 8
+    },
+    {
+        "latitude": -6.1202,
+        "longitude": 106.1505,
+        "nama_daerah": "Banten",
+        "jumlah_sekolah": 9
+    },
+    {
+        "latitude": 0.5071,
+        "longitude": 101.4478,
+        "nama_daerah": "Riau",
+        "jumlah_sekolah": 7
+    },
+    {
+        "latitude": -1.6102,
+        "longitude": 103.6131,
+        "nama_daerah": "Jambi",
+        "jumlah_sekolah": 6
+    },
+    {
+        "latitude": -0.9492,
+        "longitude": 100.3543,
+        "nama_daerah": "Sumatera Barat",
+        "jumlah_sekolah": 10
+    },
+    {
+        "latitude": -3.8004,
+        "longitude": 102.2655,
+        "nama_daerah": "Bengkulu",
+        "jumlah_sekolah": 5
+    },
+    {
+        "latitude": -5.426,
+        "longitude": 105.258,
+        "nama_daerah": "Lampung",
+        "jumlah_sekolah": 12
+    },
+    {
+        "latitude": -2.9909,
+        "longitude": 104.756,
+        "nama_daerah": "Sumatera Selatan",
+        "jumlah_sekolah": 14
+    },
+    {
+        "latitude": -2.7410,
+        "longitude": 106.4406,
+        "nama_daerah": "Bangka Belitung",
+        "jumlah_sekolah": 3
+    },
+    {
+        "latitude": 0.0263,
+        "longitude": 109.3425,
+        "nama_daerah": "Kalimantan Barat",
+        "jumlah_sekolah": 8
+    },
+    {
+        "latitude": 0.5386,
+        "longitude": 116.4194,
+        "nama_daerah": "Kalimantan Timur",
+        "jumlah_sekolah": 11
+    },
+    {
+        "latitude": -3.3186,
+        "longitude": 114.5920,
+        "nama_daerah": "Kalimantan Selatan",
+        "jumlah_sekolah": 7
+    },
+    {
+        "latitude": -7.7170,
+        "longitude": 109.0113,
+        "nama_daerah": "Cilacap",
+        "jumlah_sekolah": 4
+    },
+    {
+        "latitude": 0.5479,
+        "longitude": 123.0595,
+        "nama_daerah": "Gorontalo",
+        "jumlah_sekolah": 6
+    },
+    {
+        "latitude": -0.8987,
+        "longitude": 119.8502,
+        "nama_daerah": "Sulawesi Tengah",
+        "jumlah_sekolah": 9
+    },
+    {
+        "latitude": -5.1354,
+        "longitude": 119.4238,
+        "nama_daerah": "Sulawesi Selatan",
+        "jumlah_sekolah": 16
+    },
+    {
+        "latitude": -4.0031,
+        "longitude": 122.5129,
+        "nama_daerah": "Sulawesi Tenggara",
+        "jumlah_sekolah": 5
+    }
+]
