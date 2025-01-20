@@ -21,7 +21,7 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col">
-              <div class="pdn-carousel owl-theme">
+              <div class="owl-carousel">
                 <div> <img src="majalah/cover/305.png" alt="Image 1" width="500px"> </div>
                 <div> <img src="majalah/cover/305.png" alt="Image 2" width="500px"> </div>
                 <div> <img src="majalah/cover/305.png" alt="Image 3" width="500px"> </div>
@@ -38,22 +38,20 @@
     <!-- owl-carousel -->
     <script src="owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
     <script>
-      $('.pdn-carousel').owlCarousel({
-        loop:true,
-        margin:10,
-        nav:true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:3
-            },
-            1000:{
-                items:5
-            }
-        }
-      })
-    </script>
+			$(".owl-carousel").owlCarousel({
+			  loop: true,
+			  margin: 10,
+			  autoplay: true,
+			  autoplayTimeout: 2000,
+			  dots: true,
+			  nav: true,
+			  navText: ['prev', 'next'],
+			  responsive: {
+				0: { items: 1 },
+				768: { items: 2 },
+				1200: { items: 4 }
+			  }
+			});
+		</script>
   </body>
 </html>
